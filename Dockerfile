@@ -15,4 +15,4 @@ RUN pip install --upgrade pip && \
 EXPOSE 8000
 
 # ✅ Perintah default untuk run uvicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "main:app"]
+CMD ["python", "main.py"]
